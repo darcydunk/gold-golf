@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Elite Golf Gear</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f8f5;
+      color: #333;
+    }
+
+    header {
+      background: url('https://images.unsplash.com/photo-1574944985071-1c4ef15e3270?auto=format&fit=crop&w=1500&q=80') no-repeat center center/cover;
+      height: 400px;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.3em;
+    }
+
+    .hero-button {
+      background-color: #008000;
+      color: white;
+      padding: 12px 30px;
+      font-size: 1.1em;
+      text-decoration: none;
+      margin-top: 20px;
+      border-radius: 5px;
+    }
+
+    nav {
+      background-color: #004d26;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+    }
+
+    .section {
+      padding: 40px 20px;
+    }
+
+    .section h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #004d26;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .product {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 15px;
+      text-align: center;
+    }
+
+    .product img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+
+    .product h4 {
+      margin: 10px 0 5px;
+      color: #333;
+    }
+
+    .product p {
+      color: #008000;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #004d26;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Elite Golf Gear</h1>
+    <p>Est. 2025 — Your destination for premium golf equipment</p>
+    <a class="hero-button" href="#shop">Shop Now</a>
+  </header>
+
+  <nav>
+    <a href="#shop">Shop</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="section" id="shop">
+    <h2>Golf Clubs</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="https://m.media-amazon.com/images/I/71JTTy38uDL._AC_SL1500_.jpg" alt="Driver">
+        <h4>Callaway Driver</h4>
+        <p>$399</p>
+      </div>
+      <div class="product">
+        <img src="https://m.media-amazon.com/images/I/81WEMIHpZLL._AC_SL1500_.jpg" alt="Irons">
+        <h4>Titleist Irons Set (3-9)</h4>
+        <p>$899</p>
+      </div>
+      <div class="product">
+        <img src="https://m.media-amazon.com/images/I/71TXv8cmnOL._AC_SL1500_.jpg" alt="Putter">
+        <h4>Scotty Cameron Putter</h4>
+        <p>$399</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Golf Accessories</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="https://m.media-amazon.com/images/I/71NeDxqp3gL._AC_SL1500_.jpg" alt="Gloves">
+        <h4>FootJoy Golf Gloves</h4>
+        <p>$29</p>
+      </div>
+      <div class="product">
+        <img src="https://m.media-amazon.com/images/I/81HjXMoShdL._AC_SL1500_.jpg" alt="Rangefinder">
+        <h4>Precision Pro Rangefinder</h4>
+        <p>$199</p>
+      </div>
+      <div class="product">
+        <img src="https://m.media-amazon.com/images/I/71EB2PZj+wL._AC_SL1500_.jpg" alt="Headcovers">
+        <h4>Golf Club Headcovers (3 Pack)</h4>
+        <p>$45</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Golf Clothing</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="https://m.media-amazon.com/images/I/61WYJbbBK1L._AC_UX569_.jpg" alt="Polo Shirt">
+        <h4>Nike Golf Polo</h4>
+        <p>$59</p>
+      </div>
+      <div class="product">
+        <img src="https://m.media-amazon.com/images/I/71kLrkL2FtL._AC_UX679_.jpg" alt="Golf Shorts">
+        <h4>Adidas Golf Shorts</h4>
+        <p>$49</p>
+      </div>
+      <div class="product">
+        <img src="https://m.media-amazon.com/images/I/71HoROcXkYL._AC_UX569_.jpg" alt="Golf Shoes">
+        <h4>Under Armour Golf Shoes</h4>
+        <p>$129</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Elite Golf Gear. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
